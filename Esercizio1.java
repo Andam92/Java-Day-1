@@ -1,5 +1,7 @@
 package it.epicode.be;
 
+import java.util.Arrays;
+
 public class Esercizio1 {
 	public static void main (String[] args) {
 		
@@ -8,9 +10,9 @@ public class Esercizio1 {
 		System.out.println("Moltiplicazione: " + moltiplica (6, 4));
 		System.out.println("Concatena stringa e intero: " + concatena ("Stringa ", 4));
 		//System.out.println("InserisciInArray: " + inserisciInArray (array, 4));
-		for(int i = 0; i<6; i++) {
-			System.out.println("InserisciInArray: " + inserisciInArray(array, "ciao")[i]);
-		}
+	 
+			System.out.println("InserisciInArray: " + Arrays.toString(inserisciInArray(array, "ciao")));
+		
 		
 	}
 	
